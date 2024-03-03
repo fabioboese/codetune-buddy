@@ -3,8 +3,9 @@
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
+    <PackageId>CodTune.Buddy</PackageId>
     <Nullable>enable</Nullable>
-    <Version>$(VersionPrefix)0.0.1-alfa0</Version>
+    <Version>0.0.1-alfa0</Version>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <RepositoryUrl>https://github.com/fabioboese/codetune-buddy</RepositoryUrl>
   </PropertyGroup>
