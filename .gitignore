@@ -5,3 +5,4 @@
 /src/CodeTune.Buddy/.vs/
 /src/CodeTune.Buddy/CodeTune.Buddy/bin/
 /src/CodeTune.Buddy/CodeTune.Buddy/obj/
+*.user
