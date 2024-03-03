@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/src/CodTune.Buddy/.vs/
+/src/CodTune.Buddy/CodeTune.Buddy/bin/
+/src/CodTune.Buddy/CodeTune.Buddy/obj/
