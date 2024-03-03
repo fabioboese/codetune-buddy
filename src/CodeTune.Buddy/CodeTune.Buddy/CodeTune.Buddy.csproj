@@ -6,6 +6,7 @@
     <Nullable>enable</Nullable>
     <Version>$(VersionPrefix)0.0.1-alfa0</Version>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <RepositoryUrl>https://github.com/fabioboese/codetune-buddy</RepositoryUrl>
   </PropertyGroup>
 
 </Project>
