@@ -5,7 +5,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <PackageId>CodeTune.Buddy</PackageId>
     <Nullable>enable</Nullable>
-    <Version>$([System.DateTime]::Now.ToString(&quot;0.0.1-revYYMMddHHmmss&quot;))</Version>
+    <Version>0.0.1-rev$([System.DateTime]::Now.ToString(&quot;yyMMddHHmmss&quot;))</Version>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <RepositoryUrl>https://github.com/fabioboese/codetune-buddy</RepositoryUrl>
   </PropertyGroup>
