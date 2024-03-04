@@ -5,9 +5,13 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <PackageId>CodeTune.Buddy</PackageId>
     <Nullable>enable</Nullable>
-    <Version>0.0.1-rev$([System.DateTime]::Now.ToString(&quot;yyMMddHHmmss&quot;))</Version>
+    <Version>0.0.1-rev$([System.DateTime]::Now.ToString("yyMMddHHmmss"))</Version>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <RepositoryUrl>https://github.com/fabioboese/codetune-buddy</RepositoryUrl>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+  </ItemGroup>
 
 </Project>

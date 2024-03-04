@@ -1,7 +1,6 @@
-﻿namespace CodeTune.Buddy
+﻿namespace CodeTune.Buddy;
+
+public class AboutMe
 {
-    public class AboutMe
-    {
-        public static string? GetVersion() => System.Reflection.Assembly.GetExecutingAssembly()?.GetName()?.Version?.ToString();
-    }
+    public static string? GetVersion() => System.Reflection.Assembly.GetExecutingAssembly()?.GetName()?.Version?.ToString();
 }
