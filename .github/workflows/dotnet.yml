@@ -31,4 +31,4 @@ jobs:
     - name: Debug filesystem structure
       run: ls -laR .
     - name: Publish nuget package
-      run: dotnet nuget push "./src/CodeTune.Buddy/CodeTune.Buddy/bin/Debug/CodeTune.Buddy.0.0.1-alfa0.nupkg" --source "github"
+      run: dotnet nuget push "./src/CodeTune.Buddy/CodeTune.Buddy/bin/Debug/*.nupkg" --source "github"
